@@ -32,7 +32,7 @@ const kg = "chilogrammi";
 const div = document.getElementById("print_bike");
 
 // Tramite for-each e istruzione condizionale if(), calcolare la bici col peso minore
-let heaviestBike = racingBikes.forEach((element) => {
+let lighterBike = racingBikes.forEach((element) => {
 
     if(element.weight < lighterBikeKgs) {
         lighterBikeKgs = element.weight;
